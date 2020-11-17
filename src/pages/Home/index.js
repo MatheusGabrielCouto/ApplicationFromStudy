@@ -22,7 +22,7 @@ export default function Home({navigation}) {
         <TouchableOpacity style={styles.btnCli} onPress={() => navigation.navigate('Cliente')} >
           <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 15}}>Cliente</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.btnWork} >
+        <TouchableOpacity style={styles.btnWork} onPress={() => navigation.navigate('Worker')}>
           <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 15}}>Profissional</Text>
         </TouchableOpacity>
       </View>

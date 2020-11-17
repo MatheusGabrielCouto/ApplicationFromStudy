@@ -4,7 +4,7 @@ import { AppLoading } from 'expo'
 import { useFonts, Ubuntu_400Regular } from '@expo-google-fonts/ubuntu'
 import { MaterialCommunityIcons as Icon } from '@expo/vector-icons'
 
-export default function Cliente({navigation}) {
+export default function Worker({navigation}) {
 
   let [fontsLoaded] = useFonts({
     Ubuntu_400Regular
@@ -16,8 +16,8 @@ export default function Cliente({navigation}) {
 
   return (
     <View style={styles.container}>
-      <Image style={{width: 400, height: 300, marginBottom: 50}} source={require('../../assets/clientIcon.png')} />
-      <Text style={styles.title}>Cliente</Text>
+      <Image style={{width: 400, height: 300, marginBottom: 50}} source={require('../../assets/certificateIcon.png')} />
+      <Text style={styles.title}>Profissonal</Text>
       <View>
       <Text style={{color: "#fff", fontWeight: 'bold', left: 10 }}>Email</Text>
         <View style={{flexDirection: 'row', width: 300}}>
