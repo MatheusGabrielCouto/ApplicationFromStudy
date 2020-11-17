@@ -1,6 +1,7 @@
 # ApplicationFromStudy
 
-Application for client interaction with professional making the hiring by a "click"
+<p>Application for client interaction with professional making the hiring by a "click"</p>
+<p>a proposta do aplicativo é facilitar para os clientes encontrar o melhor profissional para aquele serviço :rocket</p>
 
 <div>
 <h3>Main Screen</h3>
