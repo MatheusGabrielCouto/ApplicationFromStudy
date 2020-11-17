@@ -1,6 +1,5 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import image from '../../assets/icon.png';
 import { AppLoading } from 'expo'
 import { useFonts, Roboto_400Regular } from '@expo-google-fonts/roboto'
 import { Ubuntu_400Regular, Ubuntu_700Bold } from '@expo-google-fonts/ubuntu'
@@ -17,15 +16,14 @@ export default function Home({navigation}) {
 
   return (
     <View style={styles.container}>
-      <Image source={image} style={styles.image} />
+      <Image style={styles.image} source={require('../../assets/workerIcon.png')} />
       <Text style={styles.title}>RondoWorkers</Text>
-
       <View style={styles.containerBnt}>
         <TouchableOpacity style={styles.btnCli} onPress={() => navigation.navigate('Cliente')} >
-          <Text>Cliente</Text>
+          <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 15}}>Cliente</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.btnWork} >
-          <Text>Profissional</Text>
+          <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 15}}>Profissional</Text>
         </TouchableOpacity>
       </View>
 
@@ -37,37 +35,49 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: "center",
-    backgroundColor: "#64ffda"
+    backgroundColor: "#3E82FC"
   },
   image: {
-    width: 350,
+    width: 400,
+    height: 250,
+    top: -50,
   },
   title: {
-    fontSize:32,
-    color:"#453493",
+    fontSize:40,
+    color:"#26F7FD",
     fontFamily: "Ubuntu_700Bold",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    textShadowColor: '#546e7a',
+    textShadowOffset: {width: 1, height: 2},
+    textShadowRadius: 1
   },
   containerBnt: {
-    top: 150
+    top: 115
   },
   btnCli: {
-    backgroundColor: "#ffeb3b",
+    backgroundColor: "#FE2C54",
     paddingHorizontal: 60,
     paddingVertical: 15,
     alignItems: "center",
-    borderColor: "#5AE6C5",
-    borderWidth: 3,
-    borderRadius: 15
+    borderRadius: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 1, height: 1 },
+    shadowOpacity:  0.4,
+    shadowRadius: 3,
+    elevation: 5,
   },
   btnWork: {
     marginTop: 20,
-    backgroundColor: "#ffeb3b",
+    backgroundColor: "#FE2C54",
     paddingHorizontal: 60,
     paddingVertical: 15,
     alignItems: "center",
-    borderColor: "#5AE6C5",
-    borderWidth: 3,
-    borderRadius: 15
+    borderRadius: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 1, height: 1 },
+    shadowOpacity:  0.4,
+    shadowRadius: 3,
+    elevation: 5,
   }
 });
+
