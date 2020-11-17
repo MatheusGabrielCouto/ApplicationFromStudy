@@ -19,11 +19,10 @@ The application's proposal is to make it easier for customers to find the best p
     <img src="./src/assets/imagen3.jpg" width='150'/>
     <p>screen for the user to enter / register as a Profissional</p>
   </div>
-</div>
-
-<style>
+  <style>
   .container {
     display: flex;
     flex-direction: row;
   }
 </style>
+</div>
