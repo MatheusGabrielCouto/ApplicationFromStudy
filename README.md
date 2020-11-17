@@ -1,4 +1,4 @@
-# ApplicationFromStudy
+# RondoWorker Application
 
 <p>Application for client interaction with professional making the hiring by a "click"</br>
 The application's proposal is to make it easier for customers to find the best professional for that service</p>
