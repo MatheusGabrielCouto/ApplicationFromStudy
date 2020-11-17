@@ -24,5 +24,6 @@ The application's proposal is to make it easier for customers to find the best p
 <style>
   .container {
     display: flex;
+    flex-direction: row;
   }
 </style>
