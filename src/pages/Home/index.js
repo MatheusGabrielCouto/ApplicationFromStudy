@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textShadowColor: '#546e7a',
     textShadowOffset: {width: 1, height: 2},
-    textShadowRadius: 1
+    textShadowRadius: 1,
   },
   containerBnt: {
     top: 115

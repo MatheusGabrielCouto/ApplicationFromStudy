@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, Image } from 'react-native';
-import { AppLoading } from 'expo'
-import { useFonts, Ubuntu_400Regular } from '@expo-google-fonts/ubuntu'
+import { AppLoading } from 'expo';
+import { useFonts, Ubuntu_400Regular } from '@expo-google-fonts/ubuntu';
 import { MaterialCommunityIcons as Icon } from '@expo/vector-icons'
 
 export default function Cliente({navigation}) {

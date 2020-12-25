@@ -8,6 +8,7 @@ import Home from "./src/pages/Home";
 import Cliente from "./src/pages/Cliente";
 import Worker from './src/pages/Worker';
 import Services from './src/pages/Services';
+import Request from './src/pages/Request';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Stack.Screen name="Cliente" component={Cliente} options={{ headerShown: false }} />
         <Stack.Screen name="Worker" component={Worker} options={{ headerShown: false }} />
         <Stack.Screen name="Services" component={Services} options={{ headerShown: false }} />
+        <Stack.Screen name="Request" component={Request} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

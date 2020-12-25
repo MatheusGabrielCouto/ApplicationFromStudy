@@ -9,7 +9,7 @@ return (
     <View style={{marginTop: 30}}>
       {/* Line 1  */}
       <View style={styles.optionsContainer}>
-        <TouchableOpacity style={styles.options} onPress={() => navigation.navigate('Home')}>
+        <TouchableOpacity style={styles.options} onPress={() => navigation.navigate('Request')}>
         <Image style={{width: 80, height: 80}} source={require('../../assets/works/paint.png')} />
         <Text style={styles.optionsTitle}>Pintura</Text>
         </TouchableOpacity>
