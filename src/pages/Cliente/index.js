@@ -36,7 +36,7 @@ export default function Cliente({navigation}) {
       
 
       <View style={{top: 40}}>
-        <TouchableOpacity style={styles.btnLog}>
+        <TouchableOpacity style={styles.btnLog} onPress={() => navigation.navigate('Services')}>
           <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 15}}>Entrar</Text>
         </TouchableOpacity>
       </View>
